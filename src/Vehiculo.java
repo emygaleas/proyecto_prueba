@@ -9,8 +9,7 @@ public class Vehiculo {
         this.año = año;
     }
 
-    public void ifo_vehiculo() {
-        System.out.println("-------------------------------\n");
+    public void info_vehiculo() {
         System.out.println("Marca: " + marca);
         System.out.println("Modelo: " + modelo);
         System.out.println("Color: " + color);
@@ -19,7 +18,7 @@ public class Vehiculo {
     }
 
     public void frenar() {
+        System.out.println("EL AUTO " + marca + " HA FRENADO");
         System.out.println("----------------------------------");
-        System.out.println("EL AUTO HA FRENADO");
     }
 }
